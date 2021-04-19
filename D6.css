@@ -9,18 +9,18 @@ body{
 
 #table{
 font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
   width: 100%;
-  border-style: double;
+  /* border-style: double; */
 
 }
 
-#table th, #table td{
-    border-style: double;
-    border: rgb(32, 5, 5);
-	padding: 8px;
-    border-style: double;
-}
+/* #table th, #table td{
+    /* border-style: double; */
+    /* border: rgb(32, 5, 5); */
+	/* padding: 8px; */
+    /* border-style: double; */
+
 
 .amazonChange{
     color: rgb(255, 47, 238);
@@ -30,16 +30,17 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .Image{
-    border: 3em;
+    /* border: 3em; */
     height: 150px;
     width :150px;
+    display: block;
 }
 
 
 button{
-    text-align: center;
-    padding: 0.8em;
-     width: 50%; 
+    /* text-align: center; */
+    /* padding: 0.8em; */
+     /* width: 50%;  */
     font-family :Poppins, sans-serif;
     color:rgb(200, 250, 135);
     background-color: rgb(12, 9, 11);

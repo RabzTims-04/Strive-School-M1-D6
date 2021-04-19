@@ -33,7 +33,7 @@ const priceColor = function(){
     let colorArray = ["red", "orange", "yellow", "green", "blue"]
     for(let i=0; i<diffColor.length; i++){
         for(let j=0; j<colorArray.length; j++){
-            diffColor[i].style.color = colorArray[i]
+            diffColor[i].style.colorArray = colorArray[i]
     }
     }
 
