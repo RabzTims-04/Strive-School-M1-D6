@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(200, 250, 135);
+}
+
+.link{
+    color: black;
+    
+}
+
+#table{
+font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: double;
+
+}
+
+#table th, #table td{
+    border-style: double;
+    border: rgb(32, 5, 5);
+	padding: 8px;
+    border-style: double;
+}
+
+.amazonChange{
+    color: rgb(255, 47, 238);
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border :5em;
+    align-content: center;
+}
+
+.Image{
+    border: 3em;
+    height: 150px;
+    width :150px;
+}
+
+
+button{
+    text-align: center;
+    padding: 0.8em;
+     width: 50%; 
+    font-family :Poppins, sans-serif;
+    color:rgb(200, 250, 135);
+    background-color: rgb(12, 9, 11);
+    border-color: rgb(10, 8, 9);
+}
+
+textarea{
+    background-color: transparent;
+    display : block;
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(17, 15, 15);
+    border-radius: 0;
+    font-size :1.5em;
+    font-family :Roboto, sans-serif;
+    font-weight :200;
+    width: 100%;
+    padding :10px 0px;
+    color: rgb(36, 23, 23);
+}
