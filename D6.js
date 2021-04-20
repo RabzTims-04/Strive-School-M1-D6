@@ -1,10 +1,23 @@
-const changeH1Heading = function(){
-    let firstHeading = document.getElementById('mainTitle')  
-    firstHeading.innerText = 'Crafty Love'.toUpperCase()
+
+
+    
+    const changeH1Heading = function(){
+    let firstHeading = document.getElementById('mainTitle')
+    
+    if(firstHeading.innerText = button.value){      
+    firstHeading.innerText = 'Smart Shopping'
+    }
+    else{
+        firstHeading.innerText =  'Smart OneStopShop'
+        // let colorChange = firstHeading.innerText
+        // colorChange.style.color = "gold"       
+    }
+    button.value = !button.value
+   
 }
 
 const changePageBackgroundColor = function(){
-    document.body.style.backgroundColor = "pink"
+    document.body.style.backgroundColor = "lightgrey"
 }
 
 const changeFooterAddress = function(){
@@ -20,22 +33,27 @@ const addCssClass = function(){
 }
 
 const toggleClass = function(){
-    let imageToggle = document.querySelectorAll(".Image")
+    let imageToggle = document.querySelectorAll("img")
     for(let i=0; i<imageToggle.length; i++){
+        if(imageToggle){
+            imageToggle[i].style.display = "none"
 
-        imageToggle[i].style.display = "none"
+        }
+
+       
     }
-}
-toggleClass()
+} 
 
 const priceColor = function(){
     let diffColor = document.getElementsByClassName("price")
     let colorArray = ["red", "orange", "yellow", "green", "blue"]
-    for(let i=0; i<diffColor.length; i++){
-        for(let j=0; j<colorArray.length; j++){
-            diffColor[i].style.colorArray = colorArray[i]
-    }
-    }
-
+    
+ 
+        for(let i=0; i<diffColor.length; i++){
+            for(let j=0; j<colorArray.length; j++){
+                diffColor[i].style.color = colorArray[i]
+            }
+        }  
+    
 }
 
