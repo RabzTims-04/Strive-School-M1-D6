@@ -1,10 +1,10 @@
 
 
-    
+    let buttonValue = true
     const changeH1Heading = function(){
     let firstHeading = document.getElementById('mainTitle')
     
-    if(firstHeading.innerText = button.value){      
+    if(firstHeading.innerText = buttonValue){      
     firstHeading.innerText = 'Smart Shopping'
     }
     else{
@@ -12,7 +12,7 @@
         // let colorChange = firstHeading.innerText
         // colorChange.style.color = "gold"       
     }
-    button.value = !button.value
+    buttonValue = !buttonValue
    
 }
 
